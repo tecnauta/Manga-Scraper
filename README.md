@@ -1,6 +1,6 @@
 # Mangá Scraper e Criador de CBR
 
-Sistema para baixar mangás do unionmanga.top e depois criar CBR. Foi criado com intuito educacional, para aprender sobre a biblioteca BeautifulSoup4. 
+Sistema para baixar mangás do unionmangas.top e depois criar CBR. Foi criado com intuito educacional, para aprender sobre a biblioteca BeautifulSoup4. 
 
 ## Instalação
 
