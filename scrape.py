@@ -57,7 +57,7 @@ if inputPergunta == "1":
 
     # BeautifulSoup dos links da página mãe
     for text in soupRoot.find_all('div', class_='row lancamento-linha'):
-        for links in text.find_all('a', href=re.compile('^https://unionmangas.top/leitor/')):
+        for links in text.find_all('a', href=re.compile('^https://unionleitor.top/leitor/')):
             urls.append(links.get('href'))
 
     urls.reverse()
