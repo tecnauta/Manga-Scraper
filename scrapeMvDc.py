@@ -47,7 +47,7 @@ if inputPergunta == "1":
 
     soupRoot = BeautifulSoup(urlRoot.content, features="lxml")
 
-    folderPath = os.getcwd() + '\\' + inputUrlAllChapters.split('/')[-1]
+    folderPath = os.getcwd() + '\\' + inputUrlAllChapters.split('/')[-2]
     print(folderPath)
     # Criando diretório do mangá
     try:  
