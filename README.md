@@ -5,10 +5,12 @@ Sistema para baixar mangás do unionmangas.top e depois criar CBR. Foi criado co
 ## Instalação
 
 É necessário ter o Python instalado.
-Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar o BeautifulSoup4. 
+Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar o BeautifulSoup4, requests e lxml.
 
 ```bash
 pip install beautifulsoup4
+pip install requests
+pip install lxml
 ```
 
 ## Modo de Usar
